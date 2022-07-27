@@ -22,7 +22,7 @@ class Calculator extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Calculator',
         theme: ThemeData(
-          primarySwatch: Colors.purple,
+          primarySwatch: Colors.blue,
         ),
         home: const ScientificCalculator(),
       ),
@@ -84,8 +84,8 @@ class _ScientificCalculatorState extends State<ScientificCalculator> {
                       children: [
                         buildButton(
                             'C', 0.1, Colors.redAccent, provider, context),
-                        buildButton('⌫', 0.1, Colors.purple, provider, context),
-                        buildButton('÷', 0.1, Colors.purple, provider, context),
+                        buildButton('⌫', 0.1, Colors.blue, provider, context),
+                        buildButton('÷', 0.1, Colors.blue, provider, context),
                       ],
                     ),
                     TableRow(
@@ -137,17 +137,17 @@ class _ScientificCalculatorState extends State<ScientificCalculator> {
                   children: [
                     TableRow(
                       children: [
-                        buildButton('×', 0.1, Colors.purple, provider, context),
+                        buildButton('×', 0.1, Colors.blue, provider, context),
                       ],
                     ),
                     TableRow(
                       children: [
-                        buildButton('-', 0.1, Colors.purple, provider, context),
+                        buildButton('-', 0.1, Colors.blue, provider, context),
                       ],
                     ),
                     TableRow(
                       children: [
-                        buildButton('+', 0.1, Colors.purple, provider, context),
+                        buildButton('+', 0.1, Colors.blue, provider, context),
                       ],
                     ),
                     TableRow(
